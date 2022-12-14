@@ -8,7 +8,7 @@
     height:100vh;
     position:relative;
     overflow:hidden;
-    background:black;
+    background-image: url("Background.jpeg");
 }
 
 
@@ -34,7 +34,7 @@ position: relative;
     content:'';
     height:15%;
     width:0%;
-    background:#F24324;
+    background:#49BEF2;
     position:absolute;
     left:0;
     bottom:-20%;
@@ -48,32 +48,105 @@ width:100%;
 .circleImage {
 
     margin-left: 0.45%;
-    margin-top:0.45%;
+    margin-top: 4%;
     background: white;
-    width: 20%;
-    height: 40%;
+    width: 15%;
+    height: 30%;
     border-radius: 50%;
-    border:solid;
-    border-color:black;
+    border: solid;
+    border-color: black;
     border-width: 5px;
     position: absolute;
 }
 
-.externalCircle {
-    display: block;
-    margin-left: 2.5%;
-    margin-top:2.5%;
-    background: white;
-    width: 21.5%;
-    height: 43.25%;
-    border-radius: 50%;
-}
-
-.rectangle {
-    margin-top: 3.5%;
+.rectangleRight {
+    margin-top: 8%;
     margin-left: 15%;
-    height: 26%;
-    width: 100%;
+    height: 15%;
+    width: 35%;
     background-color: #49BEF2;
     position: absolute;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    animation-name: fadeinright;
+    animation-duration: 0.5s;
+    white-space: nowrap;
   }
+
+  .rectangleLeft {
+    margin-top: 18%;
+    height: 15%;
+    width: 35%;
+    background-color: #49BEF2;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    animation-name: fadeinleft;
+    animation-duration: 0.5s;
+    white-space: nowrap;
+  }
+
+  .nabjyot{
+    text-align: center;
+    font-size: 7vh;
+    margin-left: 0%;
+    margin-top: 3.2%;
+    font-family: system-ui;
+    color:white;
+    animation-name: firstFade;
+    animation-duration:1s;
+  }
+
+  .Developer{
+    text-align: center;
+    font-size: 7vh;
+    vertical-align: text-bottom;
+    font-family: system-ui;
+    color: white;
+    animation-name: secondFade;
+    animation-duration: 1.5s;
+    margin-top: 1%;
+    position: absolute;
+    margin-left: 4%;
+  }
+
+  @keyframes firstFade {
+        0% {
+        opacity: 0;
+        }
+        40%{
+            opacity:0;
+        }
+        100% {
+        opacity: 1;
+        }
+    }
+
+     @keyframes secondFade {
+        0% {
+            opacity: 0;
+            }
+            40%{
+                opacity:0;
+            }
+            100% {
+            opacity: 1;
+            }
+    }
+
+    @keyframes fadeinright {
+        0% {
+            width:0%
+          }
+          100% {
+            width:35%
+          }
+    }
+
+    @keyframes fadeinleft {
+        0% {
+            width:0%
+          }
+          100% {
+            width:35%
+          }
+    }
