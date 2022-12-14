@@ -34,7 +34,7 @@ position: relative;
     content:'';
     height:15%;
     width:0%;
-    background:rgb(74, 255, 222);
+    background:#F24324;
     position:absolute;
     left:0;
     bottom:-20%;
@@ -74,6 +74,6 @@ width:100%;
     margin-left: 15%;
     height: 26%;
     width: 100%;
-    background-color: rgb(74, 255, 222);
+    background-color: #49BEF2;
     position: absolute;
   }
