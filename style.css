@@ -20,7 +20,7 @@
 .nav-links ul li{
 list-style: none;
 display:inline-block;
-margin: 20px 20px;
+margin: 1.5% 1.5%;
 position: relative;
 }
 
@@ -32,12 +32,12 @@ position: relative;
 
 .nav-links ul li::after{
     content:'';
-    height:3px;
+    height:15%;
     width:0%;
     background:rgb(74, 255, 222);
     position:absolute;
     left:0;
-    bottom:-10px;
+    bottom:-20%;
     transition: 0.5s;
 }
 
@@ -47,11 +47,11 @@ width:100%;
 
 .circleImage {
 
-    margin-left: 10px;
-    margin-top:10px;
+    margin-left: 0.45%;
+    margin-top:0.45%;
     background: white;
-    width: 300px;
-    height: 300px;
+    width: 20%;
+    height: 40%;
     border-radius: 50%;
     border:solid;
     border-color:black;
@@ -61,18 +61,18 @@ width:100%;
 
 .externalCircle {
     display: block;
-    margin-left: 100px;
-    margin-top:80px;
+    margin-left: 2.5%;
+    margin-top:2.5%;
     background: white;
-    width: 330px;
-    height: 330px;
+    width: 21.5%;
+    height: 43.25%;
     border-radius: 50%;
 }
 
 .rectangle {
-    margin-top: 60px;
-    margin-left: 250px;
-    height: 200px;
+    margin-top: 3.5%;
+    margin-left: 15%;
+    height: 26%;
     width: 100%;
     background-color: rgb(74, 255, 222);
     position: absolute;
