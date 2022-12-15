@@ -34,7 +34,7 @@ position: relative;
     content:'';
     height:15%;
     width:0%;
-    background:#1560bd;
+    background:#252a47;
     position:absolute;
     left:0;
     bottom:-20%;
@@ -47,65 +47,67 @@ width:100%;
 
 .circleImage {
 
-    margin-left: 0.45%;
-    margin-top: 4%;
-    width: 15%;
-    height: 30%;
+    margin-left: 2.45%;
+    width: 12%;
+    height: 24%;
     border-radius: 50%;
     border: solid;
-    border-color: black;
+    border-color: #328db6;
     border-width: 5px;
     position: absolute;
+    margin-top: 3%;
 }
 
 .rectangleRight {
-    margin-top: 8%;
-    margin-left: 15%;
-    height: 15%;
-    width: 35%;
-    background-color: #49BEF2;
+    
+    margin-left: 6.5%;
+    height: 10%;
+    width: 30%;
+    background-color: #328db6;
     position: absolute;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     animation-name: fadeinright;
     animation-duration: 0.5s;
     white-space: nowrap;
+    margin-top: 6.5%;
   }
 
   .rectangleLeft {
-    margin-top: 18%;
     height: 15%;
-    width: 35%;
-    background-color: #49BEF2;
+    width: 20%;
+    background-color: #328db6;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     animation-name: fadeinleft;
     animation-duration: 0.5s;
     white-space: nowrap;
+    float: right;
+    margin-top: 12%;
   }
 
   .nabjyot{
     text-align: center;
-    font-size: 7vh;
-    margin-left: 0%;
-    margin-top: 3.2%;
+    font-size: 5vh;
+    margin-left: 25%;
+    margin-top: 2.2%;
     font-family: Sylfaen;
-    color:white;
+    color: white;
     animation-name: firstFade;
-    animation-duration:1s;
+    animation-duration: 1s;
   }
 
   .Developer{
     text-align: center;
-    font-size: 7vh;
+    font-size: 3vh;
     vertical-align: text-bottom;
     font-family: Sylfaen;
     color: white;
     animation-name: secondFade;
     animation-duration: 1.5s;
-    margin-top: 1%;
     position: absolute;
-    margin-left: 4%;
+    margin-top: 0.5%;
+    margin-left: 5%;
   }
 
   @keyframes firstFade {
@@ -137,7 +139,7 @@ width:100%;
             width:0%
           }
           100% {
-            width:35%
+            width:30%
           }
     }
 
@@ -146,6 +148,6 @@ width:100%;
             width:0%
           }
           100% {
-            width:35%
+            width:20%
           }
     }
