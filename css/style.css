@@ -11,26 +11,27 @@
     background:white;
 }
 
-.nav-links{
+.nav_links{
     flex:1;
-    text-align:right;
+    text-align:center;
 }
 
-.nav-links ul li{
+.nav_links ul li{
 list-style: none;
 display:inline-block;
 margin: 1.5% 1.5%;
 position: relative;
 }
 
-.nav-links ul li a{
+.nav_links ul li a{
     font-family:Segoe UI;
     color:white;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 20px;
 }
 
-.nav-links ul li::after{
+.nav_links ul li::after{
     content:'';
     height:15%;
     width:0%;
@@ -41,40 +42,40 @@ position: relative;
     transition: 0.5s;
 }
 
-.nav-links ul li:hover::after{
+.nav_links ul li:hover::after{
 width:100%;
 }
 
 .circleImage {
 
-    margin-left: 2.45%;
-    width: 12%;
-    height: 24%;
-    border-radius: 50%;
-    border: solid;
-    border-color: #328db6;
-    border-width: 5px;
-    position: absolute;
-    margin-top: 3%;
+  margin-left: 2.45%;
+  width: 11%;
+  height: 22%;
+  border-radius: 50%;
+  border: solid;
+  border-color: #328db6;
+  border-width: 5px;
+  position: absolute;
+  margin-top: 3%;
 }
 
 .rectangleRight {
     
-    margin-left: 6.5%;
-    height: 10%;
-    width: 30%;
-    background-color: #328db6;
-    position: absolute;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    animation-name: fadeinright;
-    animation-duration: 0.5s;
-    white-space: nowrap;
-    margin-top: 6.5%;
+  margin-left: 6.5%;
+  height: 8%;
+  width: 25%;
+  background-color: #328db6;
+  position: absolute;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  animation-name: fadeinright;
+  animation-duration: 0.5s;
+  white-space: nowrap;
+  margin-top: 6.5%;
   }
 
   .rectangleLeft {
-    height: 6%;
+    height: 15%;
     width: 20%;
     background-color: #328db6;
     border-top-left-radius: 50px;
@@ -88,7 +89,7 @@ width:100%;
 
   .nabjyot{
     text-align: center;
-    font-size: 4vh;
+    font-size: 3.5vh;
     margin-left: 25%;
     margin-top: 3.2%;
     font-family: Sylfaen;
@@ -139,7 +140,7 @@ width:100%;
             width:0%
           }
           100% {
-            width:30%
+            width:25%
           }
     }
 
