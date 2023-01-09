@@ -58,7 +58,7 @@ width:100%;
     margin-top: 3%;
 }
 
-.rectangleLeft {
+.rectangleRight {
     
     margin-left: 6.5%;
     height: 10%;
@@ -73,7 +73,7 @@ width:100%;
     margin-top: 6.5%;
   }
 
-  .rectangleRight {
+  .rectangleLeft {
     height: 6%;
     width: 20%;
     background-color: #328db6;
