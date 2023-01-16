@@ -32,15 +32,17 @@
                     <li><a href="#" onclick="projects()">Projects</a></li>
                   </ul>
             </div>
-            <h1 style="text-align: center;padding-top: 2%;color: white;font-size: xxx-large;font-family: monospace;background: #252a47;" id="header">About Me</h1>
+            <h1 style="text-align: center;padding-top: 2%;color: white;font-size: 35px;font-family: monospace;background: #252a47;" id="header">About Me</h1>
             <div>
             <div style="width: 100%;height:100%;background: #252a47;color:white">
                 <p style="font-size: xx-large;padding: 3%;" id="text">
-                    <img id='Dev1' src=""/>
-                    <img id='Dev2' src=""/>
-                    <img id='AppBuild' src=""/>
                     Hi, I'm Nabjyot Singh Saini, a 26 years old Information Technology Engineer graduated at Politecnico of Turin. I started working on Salesforce about 2 and a half years ago without any front-end background or knowledge about the concept of Cloud & CRM. If i have to describe myself in 3 words i will choose rational, determined and focused
                 </p>
+                <div id="images" style="display:none">
+                    <img id='Dev1' src="Dev1.jpg" style="height:30%;margin-left: 3%;margin-right: 3%;"/>
+                    <img id='Dev2' src="Dev2.jpg" style="height:30%;margin-left: 3%;margin-right: 3%;"/>
+                    <img id='AppBuild' src="AppBuild.jpg" style="height:30%;margin-left: 3%;margin-right: 3%;"/>
+                    </div>
             </div>
         </div>
         </div>
@@ -55,30 +57,33 @@
                 let text = "Hi, I'm Nabjyot Singh Saini, a 26 years old Information Technology Engineer graduated at Politecnico of Turin. I started working on Salesforce about 2 and a half years ago without any front-end background or knowledge about the concept of Cloud & CRM. If i have to describe myself in 3 words i will choose rational, determined and focused";
                 document.getElementById("header").innerHTML = show;
                 document.getElementById("text").innerHTML = text;
+                document.getElementById("text").style="font-size: xx-large;padding: 3%;"
+                document.getElementById("images").style = "display:none";
               }
 
               function skills() {
                 let show = "Skills";
-                let text = "";
+                let text = "I work with Apex (similar to Java) in the back-end language. For the front-end i use the LWC (Lightning Web Components) that's a semplification of HTML/CSS/Javascript";
                 document.getElementById("header").innerHTML = show;
                 document.getElementById("text").innerHTML = text;
+                document.getElementById("text").style="font-size: xx-large;padding: 3%;"
+                document.getElementById("images").style = "display:none";
               }
 
               function certifications() {
                 let show = "Salesforce Certifications";
                 let text = "";
                 document.getElementById("header").innerHTML = show;
-                document.getElementById("text").innerHTML = text;
-                //console.log(document.getElementById("Dev1").src = );
-                //document.getElementById("Dev2").src = Salesforce_Platform_Developer_2.pdf;
-                document.getElementById("AppBuild").src = "AppBuild.jpg";
-              }
+                document.getElementById("images").style = "padding-top: 2%;text-align:center";
+                document.getElementById("text").style = "display:none";
+                }
 
               function projects() {
                 let show = "Projects";
                 let text = "";
                 document.getElementById("header").innerHTML = show;
                 document.getElementById("text").innerHTML = text;
+                document.getElementById("images").style = "display:none";
               }
               </script>
         </script>
